@@ -1,5 +1,8 @@
 # scrapbox-alfred-workflow
-scrapbox alfred workflow
+Scrapbox Alfred workflow
+
+To search in the Scrapbox project (both public and private), as well as to create new notes.
+Scrapbox Alfred workflow.
 
 depends on [scrapbox go cli](https://github.com/ohtomi/scrapbox)
 
@@ -7,13 +10,13 @@ depends on [scrapbox go cli](https://github.com/ohtomi/scrapbox)
 
 # Installation
 1. install [scrapbox go cli](https://github.com/ohtomi/scrapbox)
-2. install [workflow package](https://github.com/dotimpact/scrapbox-alfred-workflow/releases) into alfred
+2. install [workflow package](https://github.com/vitalibondar/scrapbox-alfred-workflow/releases/) into alfred
 3. specify environment variable
   - *gohome* : your go home path
   - *site* : your scrapbox project name
   - *token* : your scrapbox auth token(in scrapbox.io cookie "connect.sid" value)
-  - ![variable setting dialog button](https://i.gyazo.com/7ac0a1fc941104c4df077cf1042a9191.png)
-  - ![setting value](https://i.gyazo.com/e6aaabae4e0d97dea6059be9913eef35.png)
+  - ![variable setting dialog button and setting value](https://i.gyazo.com/dcb822d00460b159c0f141d499135a0b.png)
+  - ![connect.sid (token)](https://i.gyazo.com/14db15332b6395cf6737dfd8160a2b9b.png)
   
 # Usage
 - keyword "sb" : search scrapbox pages
@@ -22,4 +25,5 @@ depends on [scrapbox go cli](https://github.com/ohtomi/scrapbox)
   - arg: new page title
   - enter: open new scrapbox page with title
   
-  
+# Credits
+Created by dotimpact, modified by Vitali Bondar

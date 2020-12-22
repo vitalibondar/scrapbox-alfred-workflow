@@ -2,7 +2,6 @@
 Scrapbox Alfred workflow
 
 To search in the Scrapbox project (both public and private), as well as to create new notes.
-Scrapbox Alfred workflow.
 
 depends on [scrapbox go cli](https://github.com/ohtomi/scrapbox)
 
